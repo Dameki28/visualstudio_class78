@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>example 1</title>
+</head>
+
+<body>
+</body>
+<script>
+    var fruits = ["apple", "banana", "kiwi", "mango", "pineapple"];
+    console.log(fruits);
+    var l = fruits[0];
+    console.log(l);
+    var b = fruits[1];
+    console.log(b);
+    var m = fruits[3];
+    console.log(m);
+    fruits.push("strawberries", "greenapple");
+    console.log(fruits);
+    var alphabets = ["A", "C", "M", "U", "Z", "S"];
+    console.log(alphabets);
+    alphabets.sort();
+    console.log(alphabets);
+    alphabets.reverse();
+    console.log(alphabets);
+    var numbers = ["1", "5", "2", "4", "3"];
+    var k = Math.min.apply(Math, numbers);
+    console.log(k);
+    var j = Math.max.apply(Math, numbers);
+    console.log(j);
+    fruits.unshift("grapes", "dragonfruits");
+    console.log(fruits);
+    fruits.shift();
+    console.log(fruits);
+    fruits.pop();
+    console.log(fruits);
+    var g = ["Dameki", "Love"];
+    var h = ["Mom", "And", "Dad"];
+    var c = g.concat(h);
+    console.log(c);
+</script>
+
+</html>
